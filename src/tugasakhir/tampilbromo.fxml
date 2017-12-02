@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="976.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.TampilbromoController">
+   <children>
+      <ImageView fitHeight="489.0" fitWidth="1005.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gmb/pexels-photo-639110.jpeg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tampilbromo" layoutX="9.0" layoutY="24.0" opacity="0.72" prefHeight="312.0" prefWidth="953.0" style="-fx-background-color: #392502;">
+        <columns>
+          <TableColumn prefWidth="29.0" text="No" />
+          <TableColumn prefWidth="98.0" text="Name" />
+            <TableColumn prefWidth="96.0" text="Address" />
+            <TableColumn prefWidth="90.0" text="ID/ KTP " />
+            <TableColumn prefWidth="65.0" text="Region" />
+            <TableColumn prefWidth="88.0" text="Phone" />
+            <TableColumn prefWidth="35.0" text="Age" />
+            <TableColumn prefWidth="74.0" text="Gender" />
+            <TableColumn prefWidth="50.0" text="Days" />
+            <TableColumn prefWidth="87.0" text="Start" />
+            <TableColumn prefWidth="94.0" text="Finish" />
+            <TableColumn prefWidth="49.0" text="Friend" />
+            <TableColumn prefWidth="120.0" text="Rekening" />
+        </columns>
+      </TableView>
+      <Label layoutX="220.0" layoutY="388.0" prefHeight="94.0" prefWidth="624.0" text="The Data of Mount Bromo Visitors" textFill="#b9790a">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="38.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="kembali" layoutX="399.0" layoutY="356.0" onAction="#tekankembali" opacity="0.68" prefHeight="32.0" prefWidth="173.0" style="-fx-background-color: #392502;" text="Back" textFill="#f5b13b" />
+   </children>
+</AnchorPane>

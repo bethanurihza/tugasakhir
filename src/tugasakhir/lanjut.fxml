@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="596.0" prefWidth="618.0" style="-fx-background-color: #e6ccff;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.LanjutController">
+   <children>
+      <ImageView fitHeight="295.0" fitWidth="637.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gmb/OPEN-TRIP-BROMO.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="345.0" fitWidth="415.0" layoutX="8.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gmb/Untitled-1.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="417.0" layoutY="322.0" orientation="VERTICAL" prefHeight="258.0" prefWidth="12.0" />
+      <Label layoutX="14.0" layoutY="288.0" prefHeight="25.0" prefWidth="150.0" text="Fasilitas :" textFill="#72036e">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="get" layoutX="474.0" layoutY="340.0" onAction="#tekanget" prefHeight="41.0" prefWidth="112.0" style="-fx-background-color: #cc99ff;" text="Get " textFill="#610539">
+         <font>
+            <Font name="Times New Roman" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="back" layoutX="474.0" layoutY="519.0" onAction="#tekanback" prefHeight="41.0" prefWidth="112.0" style="-fx-background-color: #cc99ff;" text="Back" textFill="#610539">
+         <font>
+            <Font name="Times New Roman" size="17.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="523.0" layoutY="441.0" text="Or" />
+   </children>
+</AnchorPane>

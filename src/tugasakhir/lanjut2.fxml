@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="528.0" style="-fx-background-color: #ecf2f9;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Lanjut2Controller">
+   <children>
+      <Separator layoutX="353.0" layoutY="352.0" orientation="VERTICAL" prefHeight="277.0" prefWidth="0.0" />
+      <ImageView fitHeight="292.0" fitWidth="296.0" layoutX="36.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gmb/Untitled-4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="334.0" prefHeight="36.0" prefWidth="181.0" text="Fasilitas" textFill="#0833ab">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="340.0" fitWidth="528.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gmb/l28907.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="get" layoutX="378.0" layoutY="396.0" onAction="#getsemeru" prefHeight="44.0" prefWidth="115.0" style="-fx-background-color: #8cb3d9;" text="GET " textAlignment="CENTER" textFill="#0c1661">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="back" layoutX="378.0" layoutY="541.0" onAction="#backsemeru" prefHeight="44.0" prefWidth="115.0" style="-fx-background-color: #8cb3d9;" text="BACK" textAlignment="CENTER" textFill="#170f75">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="423.0" layoutY="482.0" text="OR" textFill="#2a168d" />
+   </children>
+</AnchorPane>

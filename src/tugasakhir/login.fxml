@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="299.0" prefWidth="633.0" style="-fx-background-color: #00001a;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.loginController">
+   <children>
+      <ImageView fitHeight="299.0" fitWidth="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gmb/pexels-photo-192136.jpeg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="signup" layoutX="-4.0" layoutY="267.0" onAction="#tekansignup" opacity="0.43" prefHeight="31.0" prefWidth="399.0" style="-fx-background-color: #000000;" text="Don't have an account ? SIGN UP " textFill="WHITE" />
+      <Pane layoutX="389.0" layoutY="-2.0" prefHeight="301.0" prefWidth="245.0" style="-fx-background-color: #133926;">
+         <children>
+            <ImageView fitHeight="156.0" fitWidth="202.0" layoutX="22.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gmb/pbo%20logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="42.0" layoutY="50.0" opacity="0.58" prefHeight="199.0" prefWidth="315.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <JFXButton fx:id="login" layoutX="93.0" layoutY="149.0" onAction="#tekanlogin" opacity="0.68" prefHeight="23.0" prefWidth="142.0" style="-fx-background-color: #ffffff;" text="LOGIN">
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="14.0" layoutY="44.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="91.0" text="Password" />
+            <JFXTextField fx:id="username" layoutX="126.0" layoutY="29.0" />
+            <JFXPasswordField fx:id="password" layoutX="126.0" layoutY="84.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
